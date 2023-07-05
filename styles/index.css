@@ -1,0 +1,1164 @@
+
+/* @import url('https://fonts.googleapis.com/css2?family=Varela+Round&display=swap'); */
+/* font-family: 'Varela Round', sans-serif; */
+
+
+/* Definiendo los colores */
+
+/* BIENVENIDO */
+
+:root{
+    --gris: #EAEFC4;
+    --verdeClaro: #9BDF46;
+    --verdeOscuro: #25A55F;
+    --oscuro: #346473;
+}
+
+body{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    background-image: linear-gradient(#EAEFC4, #9BDF46);
+    background-attachment: fixed;
+    
+    height: 90.7vh;
+}
+
+
+
+.inicial{
+    text-align: center;
+    width: 50%;
+    margin: 5% 25%;
+    display: flex;
+    flex-direction: column;
+}
+.inicial h1{
+    font-size: 3rem;
+}
+.div__inicial{
+    width: 100%;
+    height: 60%;
+}
+.div__inicial h3{
+    margin-bottom: 6%;
+    font-size: 1.3rem;
+    margin-top: 0;
+    font-weight: 300;
+}
+
+.inicial button{
+    cursor: pointer;
+    width: 40%;
+    height: 3.5rem;
+    border: none;
+    border-radius: 15px;
+    background-color: var(--gris);
+    font-weight: 500;
+    font-size: 1rem;
+}
+.inicial button:hover{
+    background-color: var(--oscuro);
+}
+.inicial__secundario{
+    width: 100%;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 100px;
+}    
+.inicial__secundario img{
+    width: 30%;
+    /* background-color: rgb(56, 148, 148); */
+}
+.spn__wpp{
+    font-size: 2.5rem;
+    font-family: 'Varela Round', sans-serif;
+}
+
+.hidden{
+    display: none;
+}
+.hidden__inicioSesion{
+    display: none;
+}
+
+.fotico__chat{
+    height: 40px;
+    border-radius: 25px;
+    margin-left: 11px
+}
+
+
+
+/* INICIO SESION */
+@import url('https://fonts.googleapis.com/css2?family=Varela+Round&display=swap');
+/* font-family: 'Varela Round', sans-serif; */
+
+
+/* Definiendo los colores */
+
+:root{
+    --gris: #EAEFC4;
+    --verdeClaro: #9BDF46;
+    --verdeOscuro: #25A55F;
+    --oscuro: #346473;
+}
+
+
+.btn__atras{
+    height:5%;
+    font-size: 90%;
+    border-radius: 15px;
+    border: none;
+    background-color: var(--gris);
+    cursor: pointer;
+    font-weight: 700;
+    width: 15%;
+    margin-bottom: 15px;
+    text-decoration: none;
+    color: black;
+}
+
+/* #contenedor__inicioSesion{
+    width: 100%;
+} */
+.inicio{
+    text-align: center;
+    width: 37rem;
+    margin: 4% 64%;
+    display: flex;
+    flex-direction: column;
+}
+#formulario{
+    height: 20rem;
+}
+
+
+.recuadro{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center
+}
+
+legend{
+    font-size: 30px;
+    margin-bottom: 30px;
+}
+.titulo-input{
+    font-size: 22px;
+    margin: 10px 0;
+    font-weight: 500;
+    
+}
+.input_inicioSesion{
+    height: 16%;
+    width: 50%;
+    border-radius: 15px;
+    border: none;
+    background-color: var(--gris);
+    font-size: 17px;
+    padding: 0 10px;
+}
+
+input:hover{
+    background-color: var(--oscuro)
+}
+.btn__entrar{
+    margin-top: 15px;
+    height:15%;
+    font-size: 90%;
+    border-radius: 15px;
+    border: none;
+    background-color: var(--gris);
+    cursor: pointer;
+    font-weight: 700;
+    width: 20%;
+}
+.btn__entrar:hover{
+    background-color: var(--oscuro)
+}
+.inicial__secundario{
+    width: 100%;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 65px;
+}    
+.inicial__secundario img{
+    width: 30%;
+}
+.spn__wpp{
+    font-size: 2.5rem;
+    font-family: 'Varela Round', sans-serif;
+}
+
+/* PARTE DEL HOME */
+
+.contenedor__home{
+    display: none;
+}
+
+.contenedor__verHome{
+    display: block;
+}
+
+:root{
+    --colorGris: #ededed;
+}
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+}
+
+.header{
+    width: 100%;
+    height: 10%;
+    background-color: var(--colorGris);
+    display: flex;
+}
+
+.perfil_usuario{
+    width: 30%;
+    border-right: 1px solid grey;
+    display: flex;
+}
+
+.foto_perfil{
+    height: 50px;
+    border-radius: 50%;
+    width: 50px;
+    margin: 10px;
+    margin-top: 5px;
+    margin-left: 20px;
+}
+
+.perfil_mensaje{
+    width: 70%;
+    margin-right: 20px;
+    display: flex;
+    align-items: center;
+}
+.foto_perfilContacto{
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    margin-left: 20px;
+}
+.datos_contacto{
+    display: flex;
+    flex-direction: column;
+    margin-left: 10px;
+    margin-right: 80%;
+}
+
+.datos__contacto{
+    display:flex;
+    align-items: start;
+    gap: 20px;
+    cursor: pointer;
+}
+
+.nombre__perfil{
+    font-weight: bolder;
+    font-size: 18px;
+    width: 90%;
+    border: none;
+    display:flex;
+    align-self: center;
+}
+.nombre__perfil:hover{
+    background-color: white;
+}
+.nombre__perfil, #placeholder{
+    color: black;
+}
+.estado_perfil{
+    font-size: 10px;
+    color: grey;
+    position: relative;
+    top: 25px;
+    background-color: #9BDF46;
+    right: 36%;
+    width: 50px;
+    display: block;
+}
+.estado_perfil--activa{
+    font-size: 10px;
+    color: grey;
+    position: relative;
+    top: 25px;
+    background-color: #9BDF46;
+    right: 36%;
+    width: 50px;
+    display: block;
+}
+
+main{
+    width: 100%;
+    height: 100%;
+    display: flex;
+}
+
+.espacio_contactos{
+    width: 29.4%;
+    height: 100%;
+    background-color: var(--colorGris);
+}
+.contenedor_buscar{
+    width: 100%;
+    height: 8%;
+    background-color: rgb(243, 243, 243)
+}
+.buscar_contacto{
+    display: flex;
+    width: 90%;
+    height: 70%;
+    margin-left: 18px;
+    background-color: white;
+    border-radius: 35px;
+    display: flex;
+    align-items: center;
+    position: relative;
+    top:8px;
+}
+.icono_buscar_contacto{
+    margin-left: 1rem;
+    cursor: pointer;
+}
+.input_buscar_contacto{
+    border: none;
+    width: 80%;
+    margin-left: 1rem;
+    font-size: 17px;
+    height: 70%;
+    background-color: rgb(241, 241, 241);
+}
+
+.contenedor_contactos{
+    display: flex;
+    flex-direction: column;
+    overflow-y: scroll;
+    height: 90%;
+}
+
+.tarjeta_contacto{
+    height: 65px;
+    background-color: rgb(253, 254, 254);
+    display: flex;
+    align-items: center;
+    border-bottom: 0.5px solid rgb(171, 171, 171);
+    cursor: pointer;
+}
+
+.tarjeta_contacto:hover{
+    background-color: var(--oscuro);
+}
+
+.union_foto_contacto{
+    width: 20%;
+}
+.foto_contacto{
+    height: 65%;
+    width: 65%;
+    border-radius: 50%;
+    margin: 0.5rem;
+}
+
+.union_mensaje{
+    display: flex;
+    flex-direction: column;
+}
+
+.nombre_dia_mensaje{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    margin-bottom: 0.2rem;
+    padding-right: 0.3rem;
+}
+.nombre_contacto{
+    font-size: 18px;
+    font-weight: bolder;
+}
+.dia_mensaje{
+    color: rgb(107, 107, 107);
+    font-size: 14px;
+}
+
+.icono_texto_mensaje{
+    display: flex;
+    justify-content: flex-start
+}
+.icono_ckeck{
+    height: 16px;
+}
+
+.mensaje_contacto{
+   font-size: 12px;
+   color: rgb(107, 107, 107);
+}
+
+
+.espacio_mensajes{
+    width: 70.6%;
+    height: 100%;
+    /* overflow-y: scroll; */
+   
+}
+
+.span__hora{
+    font-size: 10px;
+    font-weight: 100;
+    color: #8b8a8a;
+}
+
+
+/* contenedor de los chats mensajes */
+.visualizacion_mensajes{
+    margin: 0;
+    height: 90%;
+    width: 100%;
+    background-image: url(https://i.pinimg.com/originals/d4/63/7b/d4637b476b7b908c9fde1107a83b00fe.jpg);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    overflow-y: scroll;
+
+    
+    
+    /* align-items: baseline; */
+}
+
+.dia_envio_mensaje{
+    font-size: 18px;
+    padding: 5px 10px;
+    background-color: rgb(217, 235, 250);
+    border-radius: 8px;
+    max-width: max-content;
+    align-self: center;
+}
+
+.mensaje_entrada{
+    font-size: 18px;
+    padding: 5px 10px;
+    background-color: rgb(253, 248, 248);
+    max-width: 50%;
+    display: flex;
+    flex-direction: column;
+    /* align-content: start;
+    margin-left: 1rem;
+    align-self: flex-start; */
+    align-content:end;
+    align-self: flex-end;
+    margin-right: 1rem;
+    flex-direction: column;
+    
+}
+
+.mensaje_salida{ 
+    font-size: 18px;
+    padding: 5px 10px;
+    background-color: rgb(210, 255, 199);
+    max-width: 52%;
+    display: flex;
+    align-content: start;
+    margin-left: 1rem;
+    align-self: flex-start;
+    
+    /* align-content:end;
+    align-self: flex-end;
+    margin-right: 1rem;
+    flex-direction: column; */
+
+    
+    /* position: relative; */
+    /* left: 500px;    */
+    
+    /* display: flex;
+    justify-content: flex-end;
+    margin-right: 10px;
+    background-color: rgb(210, 255, 199);
+    width: 50%;
+    margin-left: 450px;
+    align-items:center; */
+}
+
+
+
+.enviar__mensaje{
+    cursor: pointer;
+}
+
+.mensaje_salida:hover .div__acciones{
+display: block;
+}
+
+.mensaje_entrada:hover .div__acciones{
+    display: block;
+    }
+
+.escribir_mensajes{
+    height: 10%;
+    background-color: rgb(243, 243, 243);
+    display: flex;
+    align-items: center;
+}
+
+.input_mensaje{
+    width: 84%;
+    height:60%;
+    border-radius: 20px;
+    border: none;
+    margin-left: 1rem;
+}
+
+.icono_enviar_mensajes{
+    margin-left: 1rem;
+    margin-right: 0.2rem;
+} 
+#btn__input{
+    width: 20px;
+    margin: 0;
+    margin-left: 1rem;
+    padding: 0;
+    border: none;
+    background-color: white;
+    cursor: pointer;
+    
+    
+}
+#btn__input img{
+    width: 100%;
+    padding: 0;
+    margin: 0;
+}
+
+/* aqui todos los cambios de profile  */
+
+:root{
+    --gris: #EDEDED;
+    --verdeClaro:  #128C7E
+    ;
+    --verdeOscuro: #25A55F;
+    --azulOscuro: #34B7F1;
+    --grisOscuro:  #555555;
+
+}
+
+.perfil{
+    width: 30%;
+    background-color: var(--gris);
+    height: 41rem;
+    text-align: center;
+    margin: 0 40%;
+    border: 1px lightgray solid;
+    display: none;
+}
+.barra__verde{
+    height: 50px;
+    background-color: var(--verdeClaro);
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+.barra__verde img{
+    margin-bottom: 3px;
+    color: var(--gris);
+    cursor: pointer;
+}
+.barra__verde span{
+    margin-bottom: 7px;
+    font-size: 18px;
+    font-weight: 500;
+    color: var(--gris);
+}
+.circulo__foto{
+    border-radius: 100%;
+    width: 60%;
+    height: 30%;
+    margin: 30px 20px;
+}
+.camara{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    bottom: 125px;
+    opacity: 1%;
+    cursor: pointer;
+    color: #ffffff;
+    font-size: 19px;
+    width: 50%;
+    left: 26%;
+    height: 100px;
+    bottom: 150px;
+}
+.camara:hover {
+   opacity: 100%;
+}
+
+.blanco{
+    width: 100%;
+    background-color: white;
+    height: 15%;
+    margin-top: 10%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: flex-end;
+    position: relative;
+    bottom: 18%;
+}
+.blanco img{
+    order: 1;
+    align-items: end;
+    padding: 10px;
+    cursor: pointer;
+}
+
+.blanco h4{
+    display: flex;
+    align-self: flex-start;
+    margin-bottom: 10px;
+    margin-left: 10px;
+    color: var(--grisOscuro);
+}
+.blanco span{
+    display: flex;
+    align-self: flex-start;
+    align-items: end;
+    margin-left: 10px;
+    position: relative;
+    top: 30px;
+}
+.contenedor__perfil{
+    display: block;
+    text-align: center;
+    text-align: center;
+}
+.ver{
+    display: block;
+}
+.oculta{
+    display: none;
+}
+.ocultas{
+    display: none;
+}
+
+.no_show{
+    /* display: none; */
+    visibility: hidden;
+}
+
+.show{
+    /* display: block; */
+    visibility: visible
+}
+
+
+
+.container__perfil{
+    text-align: center;
+}
+#atras{
+    cursor: pointer;
+}
+
+
+/* REGISTRO */
+.formulario__registro{
+    width: 50%;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 10%;
+    padding: 5%;
+    margin: 0 25%; 
+    border-radius: 10%;
+}
+
+.label__form{
+    font-size: 18px;
+    color: black;
+    margin-bottom: 10px;
+    font-family: 'Varela Round', sans-serif;
+    font-weight: bold;
+    margin-top: 5px; 
+}
+.input__form{
+    height: 35px;
+    width: 100%;
+    border-radius: 18px;
+    border: none;
+    background-color: rgb(237, 236, 236);
+    padding: 5%;
+    margin-bottom: 2%;
+}
+
+.btn__form{
+    width: 35%;
+    height: 10%;
+    background-color: rgb(68, 204, 79);
+    color: black;
+    border-radius: 8px;
+    border: none;
+    margin: 2%; 
+    font-weight: bolder;
+}
+
+.btn__form:hover{
+    width: 35%;
+    height: 11%;
+    background-color: cornflowerblue;
+}
+
+.registro__btn{
+    margin-left: 500px; 
+}
+
+
+.activa{
+    display: block;
+    width: 100%;
+}
+
+.section__formulario{
+    width: 100%;
+    display: none;
+}
+.field{
+    background-color: #c1c1c1;
+    text-align: center;
+    width: 80%;
+    margin: 0 10%;
+    margin-top: 1%;
+    border: none;
+    border-radius: 10px;
+    background-image: linear-gradient( #c1c1c1, #9BDF46);
+}
+/* aqui empieza loo de buscar mensaje */
+.icono_buscar{
+    cursor: pointer;
+    left: 15rem;
+    margin-left: 280px;
+    /* position: relative; */
+}
+.quitar{
+    cursor: pointer;
+}
+
+.verBuscar{
+    display: block;
+    width: 35%;
+    background-color: var(--gris);
+    height: 100%;
+    text-align: center;
+    border: 1px lightgray solid;
+    margin-left: 65%;
+    position: absolute;
+}
+
+.section__buscar{
+    width: 35%;
+    background-color: var(--gris);
+    height: 41rem;
+    text-align: center;
+    border: 1px lightgray solid;
+    display: none;
+}
+.barra__mensajes{
+    width: 100%;
+    height: 10%;
+    background-color: var(--gris);
+    margin-bottom: 12px;
+    font-weight: 600;
+    display: flex;
+    align-items: center;
+    align-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+.nombre__chat{
+    font-size: 18px;
+}
+.section__buscar img{
+    cursor: pointer;
+}
+.buscar__mensajes{
+    display: flex;
+    width: 98%;
+    height: 6%;
+    background-color: #ffffff;
+    border-radius: 20px;
+    align-content: center;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: flex-start;
+    margin-bottom: 40px;
+    text-align-last: center;
+}
+.buscar__mensajes input{
+    border: none;
+    margin-bottom: 10px;
+}
+.buscar__principal{
+    display: flex;
+    flex-direction:column ;
+    background-color: #ffffff;
+    width: 100%;
+    border: 1px solid var(--grisOscuro) ;
+    border: none;
+    height: auto;
+}
+.fecha{
+    font-size: 15px;
+    color: var(--grisOscuro);
+    text-align: start;
+    font-weight: bold;
+    margin: 15px 15px;
+}
+.mensajes{
+    margin-bottom: 20px;
+    height: 100%;
+    display: flex;
+    align-items: flex-start;
+}
+.mensajes span{
+    height: 100%;
+}
+input{
+    width: 50%;
+    border: none;
+    cursor: pointer;
+    height: 50%;
+}
+
+
+
+.editar__header{
+    width: 30%;
+    height: 32%;
+    color: var(--gris);
+    background-color: var(--grisOscuro);
+    border: none;
+    top: 23px;
+    left: 25px;
+    position: relative;
+    border-radius: 7px;
+    cursor: pointer;
+    margin-right: 5px;
+}
+
+.editar__header--cerrar{
+    width: 30%;
+    height: 32%;
+    color: var(--gris);
+    background-color: var(--grisOscuro);
+    border: none;
+    top: 23px;
+    left: 25px;
+    position: relative;
+    border-radius: 7px;
+    cursor: pointer;
+}
+
+.editar__header2{
+    width: 36%;
+    height: 32%;
+    color: var(--gris);
+    background-color: var(--grisOscuro);
+    border: none;
+    top: 23px;
+    left: 25px;
+    position: relative;
+    border-radius: 7px;
+    cursor: pointer;
+}
+
+.estado__wpp{
+    width: 50%;
+    position: relative;
+    height: 10rem;
+    top: 4rem;
+    display: flex;
+    background-color: var(--colorGris);
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    visibility: hidden;
+}
+.estado__wpp--activa{
+    width: 50%;
+    position: relative;
+    height: 10rem;
+    top: 4rem;
+    display: flex;
+    background-color: var(--colorGris);
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    visibility: visible;
+}
+.atras__mensaje{
+    position: absolute;
+    left: 90%;
+    top: 3px;
+    cursor: pointer;
+}
+
+.flechita{
+    visibility: hidden;
+    cursor: pointer;
+}
+.flechita:hover .div__acciones{
+    display: block;
+}
+
+/* .acciones{
+    visibility: hidden;
+} */
+/* .acciones--activa{
+    display: block;
+} */
+.div__acciones{
+    display: none;
+}
+
+
+
+@media(max-width: 500px){
+    .section__buscar{
+        width: 100%;
+    }
+}
+
+@media(max-width:800px){
+    .perfil{
+        width: 100%;
+        margin: 0;
+    }
+}
+
+
+
+
+/* RESPONSIVE */
+
+@media(max-width:580px){
+
+    .contenedor__inicioSesion{
+        display:flex;
+        flex-direction: column;
+        background-color: #34B7F1;
+        width: 100%;
+    }
+    .inicio{
+        text-align: center;
+        width: 37rem;
+        margin: 4% 64%;
+        display: flex;
+        flex-direction: column;
+    }
+    #formulario{
+        height: 20rem;
+        width: 100%;
+    }
+    
+    .recuadro{
+        height: 100%;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        position: relative;
+        left: 200px;
+    }
+    
+    legend{
+        font-size: 30px;
+        margin-bottom: 30px;
+    }
+    .titulo-input{
+        font-size: 22px;
+        margin: 10px 0;
+        font-weight: 500;
+        
+    }
+    .input_inicioSesion{
+        height: 16%;
+        width: 100%;
+        border-radius: 15px;
+        border: none;
+        background-color: var(--gris);
+        font-size: 17px;
+        padding: 0 10px;
+    }
+    
+    input:hover{
+        background-color: var(--oscuro)
+    }
+    .btn__entrar{
+        margin-top: 15px;
+        height:15%;
+        font-size: 90%;
+        border-radius: 15px;
+        border: none;
+        background-color: var(--gris);
+        cursor: pointer;
+        font-weight: 700;
+        width: 60%;
+    }
+    .btn__entrar:hover{
+        background-color: var(--oscuro)
+    }
+    .inicial__secundario{
+        width: 100%;
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-top: 65px;
+    }    
+    .inicial__secundario img{
+        width: 30%;
+    }
+    .spn__wpp{
+        font-size: 2.5rem;
+        font-family: 'Varela Round', sans-serif;
+        position: relative;
+        left: 270px;
+     
+    }
+    
+}
+
+
+
+
+
+/* parte responsive */
+
+/* Home */
+@media(max-width:500px){
+    
+
+    .contenedor__home{
+        width: 100%; 
+    }
+    .perfil_mensaje{
+        display:none; 
+    }
+
+    .espacio_mensajes{
+        display:none; 
+    }
+
+    .visualizacion_mensajes{
+        display:none;
+    }
+    
+    
+    .escribir_mensajes{
+        display:none; 
+    }
+
+    .perfil_usuario{
+        width: 100%;
+        height: 15%;
+        border-right: 1px solid grey;
+        display: flex;
+        align-items: center;
+    }
+
+    #figure__perfil{
+        position: relative;
+        top: 22px;
+    }
+
+    .espacio_contactos{
+        width: 100%;
+        height: 100%;
+        background-color: var(--colorGris);
+    }
+
+    .foto_perfil{
+        height: 40px;
+        border-radius: 50%;
+        width: 40px;
+        margin: 5px;
+        margin-top: 2px;
+        margin-left: 20px;
+        cursor: pointer;
+    }
+
+    .editar__header{
+        width: 20%;
+        height: 30px;
+        color: var(--gris);
+        background-color: var(--grisOscuro);
+        border: none;
+        border-radius: 7px;
+        cursor: pointer;
+        bottom: 20rem;
+        position: relative;
+        left: 240px;
+    }
+    
+    
+
+    .tarjeta_contacto{
+        width: 100%;
+    }
+    .union_foto_contacto{
+        width: 20%;
+    }
+
+    .union_mensaje{
+        display: flex;
+        flex-direction: column;
+        width: 80%
+    }
+
+    .foto_contacto{
+        width: auto;
+        height: 50px;
+    }
+
+    
+}
+
+
+
+
+@media(max-width:500px){
+    /* main{
+        text-align: center;
+        margin: 0;
+    
+    } */
+    .inicial button{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        margin-bottom: 10px;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .inicio{
+        width: 0;
+        margin: 4%;
+        margin-left: 30%;
+        display: flex;
+        align-self: center
+    
+    }
+  
+}

@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="/data/favicon-wpppng.png" type="image/x-icon">
+    <link rel="stylesheet" href="../styles/index.css">
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/luxon@1.27.0/build/global/luxon.min.js"></script>
+ 
+    <title>Sign in/Whatsapp</title>
+</head>
+<body>
+    
+    <main>
+        <section id="contenedor__bienvenido" class="inicial">
+            <h1>Bienvenido</h1>
+            <div class="div__inicial">
+                <h3>¿Qué quieres hacer?</h3>
+                <button id="btn__iniciarSesion">Iniciar sesión</button>
+                <button id="registro">Registrarme</button>
+            </div>
+            <div class="inicial__secundario">
+                <img src="../data/imagenwpp.svg" alt="">
+                <span class="spn__wpp">Whatsapp</span>
+            </div>
+            
+        </section>
+
+        <section id="contenedor__inicioSesion">
+        </section>
+
+        <section class="section__formulario">
+        <!-- Insertar formulario de registro -->
+        </section>
+
+        
+
+        <!-- Home -->
+
+        <section class="contenedor__home" >
+
+
+            <!-- aqui va el buscador de mensajes -->
+            <section class="section__buscar">
+                <div class="barra__mensajes">
+                    <img src="/data/x.svg" class="quitar">
+                    <span class="nombre__chat">Busca tu mensaje</span>
+                </div>
+        
+                <div class="buscar__mensajes">
+                    <!-- <img src="/data/search.svg" alt=""> -->
+                    <input type="text" placeholder="Buscar mensaje" class="input__buscarMensaje">
+                    <img src="/data/x.svg" alt="" class="cerrar__mensaje">
+                </div>
+        
+                <div class="buscar__principal">
+                    <!-- <span class="fecha">fecha</span>
+                    <div class="mensajes">
+                        <img src="/data/check.svg" alt="">
+                        <span>Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia, porro?</span> -->
+                </div>
+        
+                    <!-- <span class="fecha">fecha</span>
+                    <div class="mensajes">
+                        <img src="/data/check.svg" alt="">
+                        <span>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Fuga, sint.</span>
+                    </div> -->
+                </div>
+            </section>
+<!-- ------------------------------------------------------------------------------- -->
+            
+            <header class="header">
+ 
+                <section class="perfil_usuario">
+                    <figure id="figure__perfil">
+                        <!-- <img class="foto_perfil" src="https://img.freepik.com/fotos-premium/retrato-hombre-negro-sonrisa-emocionada-estudio-gafas-borde-marco-color-fondo-cara-divertida-modelo-masculino-feliz-nerd-sonriendo-confianza-felicidad-joven-geek-confiado_590464-132269.jpg?w=2000" alt="foto perfil"> -->
+                    </figure>
+
+                    <button class="editar__header">Editar perfil </button>
+                    <button class="editar__header--cerrar"> Cerrar sesión </button>
+                </section>
+         
+                <section class="perfil_mensaje">
+                    <div class="datos__contacto">
+                        <figure id="figure__chat">
+                            <!-- foto chat -->
+                         </figure>
+                         <!-- nombre -->
+                         
+                         <!-- <span class="estado_perfil">EN LINEA</span> -->
+                    </div>
+                    <div class="estado__wpp">
+                        
+                        
+
+                    </div>
+                    <figure>
+                        <!-- <img class="icono_buscar" src="../data/Icons/search.svg" alt="icono buscar"> -->
+                    </figure>
+                    
+                </section>
+         
+            </header>
+         
+            <main>
+                
+                <section class="espacio_contactos" >
+         
+                       <!-- aqui empieza lo de editar perfil -->
+                    <section class="perfil">
+                        <div class="barra__verde">
+                            <img src="../data/arrow-left.svg" alt="" id="atras">
+                            <span>perfil</span>
+                        </div>
+                        
+                        
+                        <div class="container__perfil">
+                            <img src="https://i.pinimg.com/originals/6f/57/76/6f57760966a796644b8cfb0fbc449843.png" alt="" class="circulo__foto">
+                            <div class="camara" id="camara">
+                                <img  class="foto_camara" src="../data/camera.svg" alt="camara">
+                                <span>Cambiar imagen</span>
+                            </div>
+                        </div>
+                
+                    
+                        <div class="blanco">
+                                <h4>Tu nombre</h4>
+                                <input class="nombre__perfil" placeholder="Laura"></input>
+                                <img src="../data/edit-2.svg" alt="Editar" id="Editar">
+                        </div>
+                    </section>  
+
+                    <div class="contenedor_buscar">
+                        <div class="buscar_contacto">
+                            <figure>
+                                <button id="btn__input">
+                                    <!-- <img class="icono_buscar_contacto" src="../data/Icons/search.svg" alt="icono buscar"> -->
+                                </button>
+                            </figure>
+                            <input class="input_buscar_contacto" id="input_buscarContacto" type="text" placeholder="Buscar o iniciar nuevo chat" >
+                        </div>
+                    </div>
+            
+                    <div class="contenedor_contactos">
+                        <!-- Cargar tarjetas de los contactos -->
+                        
+
+            
+                </section>
+         
+                <section class="espacio_mensajes">
+
+                    <div class="visualizacion_mensajes">
+                            
+
+                            
+                    </div>
+                    
+                    
+                    <!-- Aqui va los mensajes -->
+
+                
+                    <div class="escribir_mensajes">
+                        <img class="icono_enviar_mensajes" src="../data/Icons/smile.svg" alt="iconoCara">
+         
+                        <img class="icono_enviar_mensajes" src="../data/Icons/paperclip.svg" alt="iconoClip">
+         
+                        <input type="text" class="input_mensaje" placeholder="Escribe un mensaje y presione enter para enviar">
+         
+                        <span class="material-symbols-outlined enviar__mensaje">
+                            send
+                            </span>
+                    </div> 
+          
+                </section>
+         
+            </main>
+        </section>
+
+    </main>
+
+    <script src="../scripts/index.js" type="module"></script>
+</body>
+</html>
+
+

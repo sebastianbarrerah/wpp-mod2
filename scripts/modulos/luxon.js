@@ -1,6 +1,4 @@
-const axios = require("axios")
-const luxon = require("luxon")
-const sweetalert2 = require("sweetalert2")
+
 
 export const ahora = luxon.DateTime.now();
 export const fecha = ahora.toLocaleString();

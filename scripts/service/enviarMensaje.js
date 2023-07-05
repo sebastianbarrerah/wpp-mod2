@@ -1,6 +1,4 @@
-const axios = require("axios")
-const luxon = require("luxon")
-const sweetalert2 = require("sweetalert2")
+
 import { APPIS } from "../modulos/appi.js";
 import {
   mensajesSalida,

@@ -1,6 +1,4 @@
-const axios = require("axios")
-const luxon = require("luxon")
-const sweetalert2 = require("sweetalert2")
+
 import { contenedorTarjetas, fotoPerfil, buscador, perfil, atras, nombrePerfil, BotonEditar, camara, fotoAcambiar, fotoPerfilNueva, fotoIdPrincipal } from "../modulos/elementsDom.js"; 
 import { APPIS} from "../modulos/appi.js"
 

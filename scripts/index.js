@@ -1,7 +1,4 @@
-//Importacion de variables y funciones
-const axios = require("axios")
-const luxon = require("luxon")
-const sweetalert2 = require("sweetalert2")
+
 import { btnInicio, pintarRegistro } from "../scripts/modulos/direccionamientoPag.js";
 import { BuscandoContacto, pintarBusquedad, clickTarjetas } from "./service/contactos.js";
 import { inputContacto, cerrarSesion} from "../scripts/modulos/elementsDom.js";
